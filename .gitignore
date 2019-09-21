@@ -1,0 +1,44 @@
+# Смотрите http://help.github.com/ignore-files/ для получения дополнительной информации об игнорировании файлов.
+
+# скомпилированный вывод
+/ расстояние
+/ TMP
+/ Из-TSC
+
+# зависимости
+/ node_modules
+
+# файлы профилирования
+хром-профайлер-events.json
+скоростно-мера-plugin.json
+
+# IDE и редакторы
+/.idea
+* .iml
+.project
+.classpath
+.c9 /
+* .launch
+.settings /
+* .Sublime-рабочее пространство
+
+# IDE - VSCode
+.vscode / *
+! .Vscode / settings.json
+! .Vscode / tasks.json
+! .Vscode / launch.json
+! .Vscode / extensions.json
+
+# разное
+/.sass-cache
+/connect.lock
+/ охват
+/libpeerconnection.log
+NPM-debug.log
+Пряжа-error.log
+testem.log
+/ типизации
+
+# Системные файлы
+.DS_Store
+Thumbs.db
